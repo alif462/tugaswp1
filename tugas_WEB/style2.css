@@ -1,0 +1,183 @@
+body{
+    font: 16px arial, sans-serif;
+    background-image: url(img/stars-pattern.png);
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+.container{
+    background-color: #3f3b51;
+    width: 1100px;
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+    margin: auto;
+    box-shadow: 10px 10px 10px 8px #312e41,
+                -10px -10px 10px 8px #544f69;
+    border-radius: 10px;
+}
+.header{
+    padding: 5px;
+    color: #242222;
+}
+.header h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #242136;
+}
+.header ul li {
+    display: inline-block;
+    margin: 5px;
+    margin-top: -15px;
+    margin-right: 8px;
+}
+.header a{
+    text-decoration: none;
+    color: #242136;
+    padding: 8px;
+    box-shadow: 5px 5px 8px 2px #312e41,
+                -5px -5px 8px 2px#544f69;
+}.header a:hover{
+    /* background-color: #5f5c5c; */
+    box-shadow: 5px 5px 8px 2px #544f69,
+                -5px -5px 8px 2px #312e41;
+    color: #242136;
+}
+.home{
+    height: 500px;
+    background-image: url(img/home.jpg);
+    background-size: cover;
+    background-position: 0 -40px;
+    border-top: 3px solid #242136;
+    border-bottom: 3px solid #242136;
+}
+.ytb{
+    height: 500px;
+}
+.about{
+    color: #242136;
+}
+iframe {
+    display: block;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    margin: 20px;
+    border: 0;
+}
+table{
+    width: 60%;
+    /* padding: 8px; */
+    box-shadow: 10px 10px 10px 8px #312e41,
+                -10px -10px 10px 8px #544f69;
+}
+table tr td{
+    padding: 8px;
+}
+.image{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+    width: 70%;
+    height: 70%;
+}
+.contact{
+    margin-top: 20px;
+    padding: 8px;
+    margin-left: 52px;
+    height: 300px;
+    background: transparent;
+    color: #000000;
+}
+.form-group{
+    /* display: ; */
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background: transparent;
+    color: #242136;
+}
+.form-group ::placeholder{
+    color: #242136;
+}
+.form-group input{
+    margin-bottom: 10px;
+    height: 30px;
+    width: 450px;
+    border: none;
+    border-bottom: 2px solid #242136;
+    background: transparent;
+    box-shadow: 5px 5px 10px 2px #312e41,
+                -5px -5px 10px 2px #544f69;
+    /* padding-bottom: 10px; */
+    /* margin-bottom: 150px; */
+}
+.buttom{
+    text-align: center;
+    justify-content: center;
+    width: 20%;
+    display: flex;
+    padding: 8px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #242222;
+    background: transparent;
+    margin-top: 20px !important;
+    box-shadow: 5px 5px 10px 2px #312e41,
+                -5px -5px 10px 2px #544f69;
+}
+.buttom:hover{
+    box-shadow: 5px 5px 10px 2px #544f69,
+                -5px -5px 10px 2px #312e41;
+    color: #242222;
+}
+.sosmed{
+    text-align: center;
+    margin: 50px;
+}
+.sosmed a{
+    text-decoration: none;
+    color: black;
+    text-shadow: 3px 3px 5px gray;
+}
+.sosmed a:hover{
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 3px 3px 5px gray;
+}
+.sosmed ul li{
+    display: inline-flex;
+    text-decoration: none;
+    margin-right: 12px;
+    justify-content: space-evenly;
+}
+.footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 30px;
+    /* margin-top: -30px; */
+    /* margin-left: 0px; */
+    /* text-align: center; */
+    padding-top: 9px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.kotak{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:-200px;}
+    75%  {background-color:green; left:0px; top:-200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
